@@ -1,0 +1,5 @@
+.sample
+coverage
+error.log
+combined.log
+/public
