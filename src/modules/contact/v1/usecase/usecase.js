@@ -47,7 +47,7 @@ const getAll = () => {
     const data = {
         section1,
         section2,
-        section3
+        section3,
     }
 
     return data;

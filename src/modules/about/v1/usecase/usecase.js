@@ -30,7 +30,7 @@ const getAll = () => {
             },
             {
                 title: 'Udemy1, “Optimizing Web Performance and Critical Rendering Path”, UC-04efb058-483d-4b0f-a92a-5f22dd38e199, Aug 2020.',
-                link: 'Udemy1, “Optimizing Web Performance and Critical Rendering Path”, UC-04efb058-483d-4b0f-a92a-5f22dd38e199, Aug 2020.'
+                link: 'http://ude.my/UC-04efb058-483d-4b0f-a92a-5f22dd38e199/'
             }
         ]
     }
@@ -39,7 +39,8 @@ const getAll = () => {
         title: 'Wishlist',
         list: [
             {
-                title: 'checked: Contribute to Open Sources more 😄⚙️.'
+                title: 'checked: Contribute to Open Sources more 😄⚙️.',
+                checked: true
             },
             {
                 title: 'Write a book 😠🔥.'
@@ -49,10 +50,12 @@ const getAll = () => {
                 link: 'https://www.youtube.com/channel/UCKJx6n1PIpMrjx0zYQhDYRQ'
             },
             {
-                title: 'checked: Make libraries or packages or plugins more 😮👍.'
+                title: 'Make libraries or packages or plugins more 😮👍.',
+                checked: true
             },
             {
-                title: 'chechked; Workout routinely 🥱💪.'
+                title: 'Workout routinely 🥱💪.',
+                checked: true
             }
         ]
     }
@@ -78,7 +81,7 @@ const getAll = () => {
         about,
         license,
         wishlist,
-        references
+        references,
     };
 
     return data;
