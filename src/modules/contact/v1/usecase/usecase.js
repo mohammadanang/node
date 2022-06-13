@@ -1,22 +1,53 @@
 const getAll = () => {
-    const title = 'Contact';
-    const description = 
-        `Contact me.
-        
-        Email: m.anangnur@gmail.com
-        Telegram: @anang182`
-    const social = 
-        `Social
-        
-        [1]Facebook
-        [2]Twitter
-        [3]Instagram
-        [4]Youtube
-        [5]Linkedin`
+    const section1 = {
+        title: 'Contact Me',
+        description: [
+            {
+                title: 'Email: m.anangnur@gmail.com',
+                link: 'm.anangnur@gmail.com'
+            },
+            {
+                title: 'Telegram: @anangm182',
+                link: 'https://t.me/anangm182'
+            }
+        ]
+    }
+
+    const section2 = {
+        title: 'Stay at',
+        description: 'Jakarta, Indonesia'
+    }
+
+    const section3 = {
+        title: 'Social',
+        list: [
+            {
+                title: 'Facebook',
+                link: 'https://www.facebook.com/mohammadanang182/'
+            },
+            {
+                title: 'Twitter',
+                link: 'https://twitter.com/anangm182'
+            },
+            {
+                title: 'Instagram',
+                link: 'https://www.instagram.com/anangm182/'
+            },
+            {
+                title: 'Youtube',
+                link: 'https://www.youtube.com/channel/UCKJx6n1PIpMrjx0zYQhDYRQ'
+            },
+            {
+                title: 'LinkedIn',
+                link: 'https://www.linkedin.com/in/anangm182/'
+            }
+        ]
+    }
+
     const data = {
-        title: title,
-        description: description,
-        social: social,
+        section1,
+        section2,
+        section3
     }
 
     return data;

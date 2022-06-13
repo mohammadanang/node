@@ -1,25 +1,27 @@
 const getAll = () => {
-    const title = 'The Home Page';
-    const description = 
-        `To Whom It May Concern
-        
-        Hello!, My name is Mohammad Anang.
-        Typing is my daily activities. I can't live without typing.
-        Sometimes thinking. Sometimes sleeping
-        Eyes up and down, Head left and right.
-        No matter how i tired I am, I will always typing.
-        That's  what people called a Software Enginering.`
-    const activities = 
-        `Daily life cycle
+    const section_1 = {
+        title: 'To Whom It May Concern.',
+        description: `Hello! My name is Mohammad Anang. \nTyping is my daily activities. I can’t live without typing. \nSometimes thinking. Sometimes sleeping. \nEyes up and down. Head left and right. \nNo matter how tired I am. I will always typing. \nThat’s what people called a Software Engineer.`
+    }
 
-        [1] Wake up.
-        [2] Eating.
-        [3] Typing.
-        [4] Sleeping.`
+    const section_2 = {
+        title: 'Daily life cycle.',
+        list: [
+            'Wake Up 🌅.',
+            'Eating 🍜.',
+            'Typing ⌨️.',
+            'Sleeping 🌙.',
+        ]
+    }
+
+    const section_3 = {
+        title: 'Quote of the day',
+        description: '> Remember to eat, sleep & blink !'
+    }
     const data = {
-        title: title,
-        description: description,
-        activities: activities,
+        section_1,
+        section_2,
+        section_3,
     };
 
     return data;
